@@ -1,0 +1,7 @@
+@for (r of res; track $index){
+<div class="a">
+    @for (c of r; track $index){
+    <div class="r" [style.background-color]="c"></div>
+    }
+</div>
+}

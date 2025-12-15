@@ -1,0 +1,26 @@
+/* Avoid applying `position: relative` to every element in this component; keep reset minimal. */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.r{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.a{
+   background-color: rgb(211, 211, 211); 
+   height: 70px;
+   width: 70px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   border-radius: 20px;
+   padding: 3px;
+   position: relative;
+   left: 3px;
+   margin: 10px;
+   border: 2px black solid;
+}

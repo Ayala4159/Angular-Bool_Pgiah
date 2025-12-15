@@ -1,0 +1,14 @@
+<div class="main">
+<div class="bg">
+     <div class="msg placeholder-wave" [style.display]="display">{{msg}}</div>
+ <div class="row ">
+        <app-clr-btn [color]="color" (circleClick)="chosenColors($event)"></app-clr-btn>
+    </div>
+    <div class="row">
+        <div class="col">
+            <app-chs-btn [res]="res" [ansColors]="ansColors" [circleChange]="circleChange"></app-chs-btn>
+        </div>
+    </div>
+
+<router-outlet />
+</div></div>

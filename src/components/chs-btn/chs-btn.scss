@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    max-height:810px;
+    box-shadow: 0px 0px 7px rgb(63, 57, 57); 
+}
+.circle {
+    border-radius: 50%;
+    // border: 5px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.g{
+    display: inline;
+}
+.d{
+    position: relative;
+    left:300px;
+}
