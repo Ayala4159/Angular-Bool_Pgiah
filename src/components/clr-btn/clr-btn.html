@@ -1,0 +1,5 @@
+<div class="row placeholder-wave r">
+    @for(c of color;track $index){
+        <div (click)="paint(c)" class="circle btn" [style.background-color]="c"></div>
+    }
+</div>

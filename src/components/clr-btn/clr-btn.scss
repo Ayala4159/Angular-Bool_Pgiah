@@ -1,0 +1,17 @@
+.r {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-bottom: 10px;  
+    box-shadow: 0px 0px 7px rgb(63, 57, 57);  
+}
+
+.circle {
+    border-radius: 50%;
+    border: 5px dashed white;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
