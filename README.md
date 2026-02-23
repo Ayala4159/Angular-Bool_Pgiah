@@ -15,7 +15,7 @@
 
 | מסך ניצחון | מסך סיום משחק (הפסד) |
 | :---: | :---: |
-| ![Win Screen](./screenshots/winScreen.png) | ![Game Over](./screenshots/gameoverScreen.png) |
+| ![Win Screen](./screenshots/winScreen.png) | ![Game Over](./screenshots/overScreen.png) |
 
 ---
 
